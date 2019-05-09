@@ -1,0 +1,96 @@
+h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  margin-top: 53px;
+}
+
+.x {
+  color: white;
+  background-color: inherit;
+  font-weight: 800;
+  font-size: 15px;
+  border: none;
+  padding-top: 3px;
+  outline: none;
+}
+
+.idea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  padding: 2px;
+  border-bottom: solid 1px lightgray;
+  width: 1000px;
+}
+
+.idea p {
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#ideas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-bottom: none;
+  border-radius: 4px;
+}
+
+.idea p:hover .x {
+  color: lightgray;
+}
+
+.x:hover {
+  color: black;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 23px;
+  margin-top: 0px;
+  border-radius: 3px;
+}
+
+form button {
+  border: darkgray 1px solid;
+  margin-left: 0;
+  width: 60px;
+  float: right;
+  height: 36px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-weight: 100;
+  font-size: 16px;
+  outline: none;
+}
+
+form button:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+form #input {
+  text-align: left;
+  border: solid 1px lightgray;
+  border-right: none;
+  font-size: 1em;
+  width: 933px;
+  padding: 5px;
+  padding-left: 10px;
+  height: 24px;
+  font-weight: 300;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
