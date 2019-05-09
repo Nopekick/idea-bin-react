@@ -9,7 +9,7 @@ app.use(cors())
 
 mongoose.set('debug', true);
 mongoose.Promise = Promise
-mongoose.connect("mongodb://<>:<>@ds151383.mlab.com:51383/<>", { useNewUrlParser: true })
+mongoose.connect(" < >", { useNewUrlParser: true })
 
 
 app.get("/:bin", function(req, res, next){

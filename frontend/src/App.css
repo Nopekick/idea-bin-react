@@ -6,7 +6,8 @@ h1 {
 }
 
 .x {
-  color: white;
+  color: darkgray;
+  opacity: 0;
   background-color: inherit;
   font-weight: 800;
   font-size: 15px;
@@ -42,8 +43,8 @@ h1 {
   border-radius: 4px;
 }
 
-.idea p:hover .x {
-  color: lightgray;
+.idea:hover .x {
+  opacity: 1;
 }
 
 .x:hover {
